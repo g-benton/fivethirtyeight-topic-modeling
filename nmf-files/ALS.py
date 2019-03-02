@@ -17,14 +17,15 @@ def update_H(X, W):
     H[H < 0] = 0
     return H
 
-def ALS(X, rank=3):
+def ALS(X, rank=3, n_iters=100, seed=66):
+    np.random.seed(seed)
     x_norm = np.linalg.norm(X)
     n = X.shape[0]
     m = X.shape[1]
     W = np.random.rand(n, rank)
     H = np.random.rand(rank, m)
 
-    n_iters = 50
+    # n_iters = 50
     errors = [None for ii in range(n_iters)]
     for iter in range(n_iters):
         W = update_W(X, W, H, rank)

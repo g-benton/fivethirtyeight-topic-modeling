@@ -21,7 +21,6 @@ def main():
     fname = 'five38_CV'
     np.save(file=fpath+fname, arr=X)
 
-
     return 1
 
 

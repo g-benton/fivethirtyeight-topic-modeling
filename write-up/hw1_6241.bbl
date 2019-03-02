@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{gillis2014}
+Nicolas Gillis.
+\newblock The why and how of nonnegative matrix factorization.
+\newblock {\em Regularization, Optimization, Kernels, and Support Vector
+  Machines}, 12(257), 2014.
+
+\bibitem{gillis2012}
+Nicolas Gillis and Fran{\c{c}}ois Glineur.
+\newblock Accelerated multiplicative updates and hierarchical als algorithms
+  for nonnegative matrix factorization.
+\newblock {\em Neural computation}, 24(4):1085--1105, 2012.
+
+\bibitem{lee2001}
+Daniel~D Lee and H~Sebastian Seung.
+\newblock Algorithms for non-negative matrix factorization.
+\newblock In {\em Advances in neural information processing systems}, pages
+  556--562, 2001.
+
+\bibitem{silver}
+Nate Silver.
+\newblock Fivethirtyeight.
+
+\end{thebibliography}
